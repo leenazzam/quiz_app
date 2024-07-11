@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\FLUTTER\QUIZAPP\QUIZ_APP\BUILD\WINDOWS\X64\CMAKEFILES\ECAFD226625073BB376FFF98BE8EF7E0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Documents/FLUTTER/QuizApp/quiz_app/windows -BD:/Documents/FLUTTER/QuizApp/quiz_app/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Documents/FLUTTER/QuizApp/quiz_app/build/windows/x64/quiz_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
